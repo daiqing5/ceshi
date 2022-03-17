@@ -1,0 +1,4 @@
+mp_login001:
+  username: "13800000002"
+  code: "123456"
+  expect: "aj123"

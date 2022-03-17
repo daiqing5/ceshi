@@ -1,0 +1,17 @@
+[32mINFO    [0m root:base.py:11 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="4f70c37b5eb26b48a4a0b1ee1884dbfb")>
+[32mINFO    [0m root:page_mp_login.py:30 正在调用用户名：13800000002 密码：123456
+[32mINFO    [0m root:base.py:15 正在查找元素：('css selector', "[placeholder='username']")
+[32mINFO    [0m root:base.py:15 正在查找元素：('css selector', "[placeholder='password']")
+[32mINFO    [0m root:base.py:21 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+[32mINFO    [0m root:base.py:23 正在对：('css selector', "[placeholder='password']")元素执行输入！
+[32mINFO    [0m root:base.py:27 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+[32mINFO    [0m root:base.py:15 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+[32mINFO    [0m root:base.py:15 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+[32mINFO    [0m root:base.py:31 正在对：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")元素执行获取文本操作！,获取文本的值：aj123
+[32mINFO    [0m root:base.py:15 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+[31m[1mERROR   [0m root:test01_mp_login.py:35 断言出错，错误信息：assert 'aj1231' == 'aj123'
+  - aj123
+  + aj1231
+  ?      +
+[31m[1mERROR   [0m root:base.py:35 断言出错，正在执行截图操作！
+[31m[1mERROR   [0m root:base.py:38 断言出错，正在将错误图片写入allure报告！

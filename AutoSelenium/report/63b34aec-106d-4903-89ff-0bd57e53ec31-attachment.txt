@@ -1,0 +1,1 @@
+[32mINFO    [0m root:base.py:11 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="a28619eb496d738a2c690092ff1aabfd")>

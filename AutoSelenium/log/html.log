@@ -1,0 +1,64 @@
+2022-03-17 19:09:24,607 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="34adcb118dfc5f355b34fef7a46c7044")>
+2022-03-17 19:09:24,609 INFO [page_mp_login.py(page_mp_login:30)]- 正在调用用户名：13800000002 密码：123456
+2022-03-17 19:09:24,610 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='username']")
+2022-03-17 19:09:24,623 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='password']")
+2022-03-17 19:09:24,633 INFO [base.py(base_input:21)]- 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+2022-03-17 19:09:24,664 INFO [base.py(base_input:23)]- 正在对：('css selector', "[placeholder='password']")元素执行输入！
+2022-03-17 19:09:25,733 INFO [base.py(base_click:27)]- 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+2022-03-17 19:09:25,733 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+2022-03-17 19:09:25,784 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:09:26,368 INFO [base.py(base_get_text:31)]- 正在对：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")元素执行获取文本操作！,获取文本的值：aj123
+2022-03-17 19:09:26,368 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:09:59,134 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="977deaa36c45bdf388d93c607a6f8d46")>
+2022-03-17 19:09:59,135 INFO [page_mp_login.py(page_mp_login:30)]- 正在调用用户名：13800000002 密码：123456
+2022-03-17 19:09:59,135 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='username']")
+2022-03-17 19:09:59,149 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='password']")
+2022-03-17 19:09:59,161 INFO [base.py(base_input:21)]- 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+2022-03-17 19:09:59,194 INFO [base.py(base_input:23)]- 正在对：('css selector', "[placeholder='password']")元素执行输入！
+2022-03-17 19:10:00,258 INFO [base.py(base_click:27)]- 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+2022-03-17 19:10:00,258 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+2022-03-17 19:10:00,311 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:10:00,901 INFO [base.py(base_get_text:31)]- 正在对：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")元素执行获取文本操作！,获取文本的值：aj123
+2022-03-17 19:10:00,901 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:10:00,918 ERROR [test01_mp_login.py(test_mp_login:35)]- 断言出错，错误信息：assert 'aj1231' == 'aj123'
+2022-03-17 19:10:00,918 ERROR [base.py(base_get_img:35)]- 断言出错，正在执行截图操作！
+2022-03-17 19:10:01,338 ERROR [base.py(base_get_img:38)]- 断言出错，正在将错误图片写入allure报告！
+2022-03-17 19:13:35,489 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="fe4643f4697a0f8087c1e56e01ad478d")>
+2022-03-17 19:13:35,492 INFO [page_mp_login.py(page_mp_login:30)]- 正在调用用户名：13800000002 密码：123456
+2022-03-17 19:13:35,492 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='username']")
+2022-03-17 19:13:38,522 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='password']")
+2022-03-17 19:13:38,532 INFO [base.py(base_input:21)]- 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+2022-03-17 19:13:38,567 INFO [base.py(base_input:23)]- 正在对：('css selector', "[placeholder='password']")元素执行输入！
+2022-03-17 19:13:39,636 INFO [base.py(base_click:27)]- 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+2022-03-17 19:13:39,636 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+2022-03-17 19:13:39,698 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:13:40,324 INFO [base.py(base_get_text:31)]- 正在对：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")元素执行获取文本操作！,获取文本的值：aj123
+2022-03-17 19:13:40,324 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:13:40,338 ERROR [test01_mp_login.py(test_mp_login:35)]- 断言出错，错误信息：assert 'aj1231' == 'aj123'
+2022-03-17 19:13:40,339 ERROR [base.py(base_get_img:35)]- 断言出错，正在执行截图操作！
+2022-03-17 19:13:40,786 ERROR [base.py(base_get_img:38)]- 断言出错，正在将错误图片写入allure报告！
+2022-03-17 19:15:58,284 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="e756fe7e291b6e708c700c876be2e162")>
+2022-03-17 19:15:58,285 INFO [page_mp_login.py(page_mp_login:30)]- 正在调用用户名：13800000002 密码：123456
+2022-03-17 19:15:58,285 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='username']")
+2022-03-17 19:16:01,302 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='password']")
+2022-03-17 19:16:01,314 INFO [base.py(base_input:21)]- 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+2022-03-17 19:16:01,348 INFO [base.py(base_input:23)]- 正在对：('css selector', "[placeholder='password']")元素执行输入！
+2022-03-17 19:16:02,415 INFO [base.py(base_click:27)]- 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+2022-03-17 19:16:02,415 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+2022-03-17 19:16:02,470 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:16:03,053 INFO [base.py(base_get_text:31)]- 正在对：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")元素执行获取文本操作！,获取文本的值：aj123
+2022-03-17 19:16:03,053 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/div[2]/ul/div[3]/div[5]/span")
+2022-03-17 19:16:03,071 ERROR [test01_mp_login.py(test_mp_login:35)]- 断言出错，错误信息：assert 'aj1231' == 'aj123'
+2022-03-17 19:16:03,071 ERROR [base.py(base_get_img:35)]- 断言出错，正在执行截图操作！
+2022-03-17 19:16:03,548 ERROR [base.py(base_get_img:38)]- 断言出错，正在将错误图片写入allure报告！
+2022-03-17 20:10:00,644 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="dfbe6706eb35e44337fd761ef0605511")>
+2022-03-17 20:10:00,649 INFO [page_mp_login.py(page_mp_login_success:32)]- 正在调用用户名：13800000002 密码：123456
+2022-03-17 20:10:00,649 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='username']")
+2022-03-17 20:10:03,677 INFO [base.py(base_find:15)]- 正在查找元素：('css selector', "[placeholder='password']")
+2022-03-17 20:10:03,689 INFO [base.py(base_input:21)]- 正在对：('css selector', "[placeholder='password']")元素执行情空操作！
+2022-03-17 20:10:03,725 INFO [base.py(base_input:23)]- 正在对：('css selector', "[placeholder='password']")元素执行输入！
+2022-03-17 20:10:04,792 INFO [base.py(base_click:27)]- 正在对：('xpath', "//*[@id='app']/div/form/button[1]")元素执行点击操作！
+2022-03-17 20:10:04,792 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', "//*[@id='app']/div/form/button[1]")
+2022-03-17 20:10:04,846 INFO [base.py(__init__:11)]- 正在获取driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="dfbe6706eb35e44337fd761ef0605511")>
+2022-03-17 20:10:05,957 INFO [base.py(base_click:27)]- 正在对：('xpath', " //span[text()='内容管理']/..")元素执行点击操作！
+2022-03-17 20:10:05,957 INFO [base.py(base_find:15)]- 正在查找元素：('xpath', " //span[text()='内容管理']/..")
